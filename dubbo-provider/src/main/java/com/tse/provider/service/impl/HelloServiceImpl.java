@@ -10,8 +10,7 @@ import org.apache.dubbo.config.annotation.DubboService;
 @DubboService(
         version = "1.0.0",
         application = "${dubbo.application.id}",
-        protocol = "${dubbo.protocol.id}",
-        registry = "${dubbo.registry.id}"
+        protocol = "${dubbo.protocol.id}"
 )
 public class HelloServiceImpl implements HelloService {
 

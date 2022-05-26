@@ -14,8 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DubboConsumerApplication {
 
     @DubboReference(version = "1.0.0",
-            application = "${dubbo.application.id}",
-            registry = "${dubbo.registry.id}")
+            application = "${dubbo.application.id}")
     private HelloService helloService;
 
     @RequestMapping("/sayHello/{name}")

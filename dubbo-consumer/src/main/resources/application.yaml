@@ -1,0 +1,26 @@
+#server:
+#  port: 8001
+#spring:
+#  application:
+#    name: consumer
+#dubbo:
+#  protocols:
+#    dubbo:
+#      name: dubbo
+#      port: 20880
+#  # 定义两个注册中心
+#  registries:
+#    nacos1:
+#      registry:
+#        address: nacos://127.0.0.1:8848
+#        id: nacos1
+#        # 必须要绑定协议
+#        protocol: dubbo
+#    nacos2:
+#      registry:
+#        address: nacos://183.47.113.145:8848
+#        id: nacos2
+#        protocol: dubbo
+#  application:
+#    # 服务提供方名称，必须要提供 否则会报错
+#    name: dubbo-consumer

@@ -1,19 +1,22 @@
 package com.tse.provider.service.impl;
-
-import com.alibaba.dubbo.config.annotation.Service;
 import com.tse.api.service.HelloService;
+import org.apache.dubbo.config.annotation.DubboService;
 
 /**
- * Create with IntelliJ IDEA
- * Author:CaiZhenhao
- * Data:2019/5/21
- * Time:20:56
+ * @author gaozhy
+ * @describe
+ * @date 2020/11/2 8:02 下午
  */
-@Service(version = "${demo.service.version}")
+@DubboService(
+        version = "1.0.0",
+        application = "${dubbo.application.id}",
+        protocol = "${dubbo.protocol.id}",
+        registry = "${dubbo.registry.id}"
+)
 public class HelloServiceImpl implements HelloService {
 
     @Override
     public String sayHello(String name) {
-        return "Hello " + name + ",This is springboot-dubbo test";
+        return "Hello:"+name;
     }
 }

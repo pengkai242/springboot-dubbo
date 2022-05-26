@@ -1,4 +1,4 @@
-package com.czh.consumer;
+package com.tse.consumer;
 
 import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;

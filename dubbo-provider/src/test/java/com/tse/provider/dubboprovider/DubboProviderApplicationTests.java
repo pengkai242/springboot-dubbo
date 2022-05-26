@@ -1,4 +1,4 @@
-package com.czh.api.dubboapi;
+package com.tse.provider.dubboprovider;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class DubboApiApplicationTests {
+public class DubboProviderApplicationTests {
 
     @Test
     public void contextLoads() {

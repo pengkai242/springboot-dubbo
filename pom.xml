@@ -10,7 +10,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.czh.dubbo</groupId>
+    <groupId>com.tse.dubbo</groupId>
     <artifactId>springboot-dubbo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>

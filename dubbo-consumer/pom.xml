@@ -9,12 +9,12 @@
         <!--<relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
     <!--</parent>-->
     <parent>
-        <groupId>com.czh.dubbo</groupId>
+        <groupId>com.tse.dubbo</groupId>
         <artifactId>springboot-dubbo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.czh.consumer</groupId>
+    <groupId>com.tse.consumer</groupId>
     <artifactId>dubbo-consumer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
@@ -27,7 +27,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.czh.api</groupId>
+            <groupId>com.tse.api</groupId>
             <artifactId>dubbo-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>

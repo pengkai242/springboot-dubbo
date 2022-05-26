@@ -1,7 +1,7 @@
-package com.czh.provider.service.impl;
+package com.tse.provider.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.czh.api.service.HelloService;
+import com.tse.api.service.HelloService;
 
 /**
  * Create with IntelliJ IDEA

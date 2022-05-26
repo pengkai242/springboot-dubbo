@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.czh.dubbo</groupId>
+        <groupId>com.tse.dubbo</groupId>
         <artifactId>springboot-dubbo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.czh.api</groupId>
+    <groupId>com.tse.api</groupId>
     <artifactId>dubbo-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>

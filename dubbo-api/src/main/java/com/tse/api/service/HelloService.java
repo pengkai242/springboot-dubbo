@@ -1,4 +1,4 @@
-package com.czh.api.service;
+package com.tse.api.service;
 
 /**
  * Create with IntelliJ IDEA

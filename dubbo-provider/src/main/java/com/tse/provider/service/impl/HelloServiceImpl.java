@@ -3,9 +3,8 @@ import com.tse.api.service.HelloService;
 import org.apache.dubbo.config.annotation.DubboService;
 
 /**
- * @author gaozhy
- * @describe
- * @date 2020/11/2 8:02 下午
+ * @author bruceppeng
+ * @describe provider
  */
 @DubboService(
         version = "1.0.0",
